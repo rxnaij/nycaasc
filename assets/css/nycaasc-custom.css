@@ -80,3 +80,21 @@ img.headshots {
     margin-left: auto;
     margin-right: auto;
 }
+
+#BioName {
+    font-size: 150%;
+    font-weight: bold;
+    text-align:left;
+    margin-top:0%;
+    margin-bottom:-2%;
+}
+#BioTitle {
+    font-size: 100%;
+    font-weight: bold;
+    text-align:left;
+}
+#BioDescript {
+    font-size: 85%; /* em or percentages? - AC*/
+    line-height:160%;
+    text-align:left;
+}
