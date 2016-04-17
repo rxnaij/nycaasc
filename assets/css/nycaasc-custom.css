@@ -51,19 +51,32 @@
     font-size: 150%;
     font-weight: bold;
     margin-bottom:-2%;
-    text-align: center;
+    text-align: center!important;
 }
 #ePosition {
-    text-align: center;
+    text-align: center!important;
 }
 #MemberTitle {
     font-size: 100%;
     font-weight: bold;
-    text-align: center;
+    text-align: center!important;
     max-width:250 px;
 }
 #MemberAffiliation {
     font-size: 100%;
-    text-align: center;
+    text-align: center!important;
     max-width:250 px;
+}
+
+#moreInfo{
+    font-size: 24px!important;
+    text-align: center!important;
+    text-decoration: none;
+    margin-top:-2%;
+}
+
+img.headshots {
+    display: block!important;
+    margin-left: auto;
+    margin-right: auto;
 }
