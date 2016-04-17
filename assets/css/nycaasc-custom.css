@@ -47,5 +47,23 @@
 	border-top:1pt solid black;
 }
 
-
-
+#MemberName {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom:-2%;
+    text-align: center;
+}
+#ePosition {
+    text-align: center;
+}
+#MemberTitle {
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    max-width:250 px;
+}
+#MemberAffiliation {
+    font-size: 100%;
+    text-align: center;
+    max-width:250 px;
+}
