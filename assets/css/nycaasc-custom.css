@@ -28,8 +28,8 @@
 	background-color: rgba(207,53,55,0.1);
 }
 .conf-schedule-cell {
-	background-color: rgba(207,53,55,0.1);
-    padding: 9px 9px 9px 12px;
+	  background-color: rgba(207,53,55,0.1);
+    padding: 10px;
     margin-bottom: 5px;
     position: relative;
     flex: 1 1 auto;
