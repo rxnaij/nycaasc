@@ -19,11 +19,10 @@
 	table-layout: auto;
 }
 .conf-schedule-time {
-	width: 100px!important;
+	width: 0;
 	padding-left: 0!important;
 }
 .conf-schedule-events {
-  width: 955px;
 	padding-right: 0!important;
 	padding: 9px 9px 9px 12px;
 	background-color: rgba(207,53,55,0.1);
