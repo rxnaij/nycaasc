@@ -19,18 +19,18 @@
 	table-layout: auto;
 }
 .conf-schedule-time {
-	width: 0;
+	width: 100px!important;
 	padding-left: 0!important;
 }
 .conf-schedule-events {
+  width: 955px;
 	padding-right: 0!important;
 	padding: 9px 9px 9px 12px;
 	background-color: rgba(207,53,55,0.1);
 }
 .conf-schedule-cell {
-	background-color: rgba(207,53,55,0.1);
-    padding: 9px 9px 9px 12px;
-    margin-bottom: 5px;
+	  background-color: rgba(207,53,55,0.1);
+    margin-bottom: 2px;
     position: relative;
     flex: 1 1 auto;
 }
