@@ -135,6 +135,9 @@ img.headshots {
   margin-right: 10px;
   margin-left: 10px;
 }
+.top-buffer { 
+	margin-top:20px; 
+}
 
 
 /* Featurettes
