@@ -135,8 +135,8 @@ img.headshots {
   margin-right: 10px;
   margin-left: 10px;
 }
-.top-buffer { 
-	margin-top:20px; 
+.top-buffer {
+	margin-top:20px;
 }
 
 
@@ -160,11 +160,11 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
+  /* Margin bottom by footer height*/ 
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
