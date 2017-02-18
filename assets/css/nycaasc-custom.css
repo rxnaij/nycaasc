@@ -47,6 +47,16 @@
 	border-top:1pt solid black;
 }
 
+h1 {
+
+
+}
+
+h2 {
+
+
+}
+
 #MemberName {
     font-size: 150%;
     font-weight: bold;
@@ -160,9 +170,10 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height*/ 
+  /* Margin bottom by footer height*/
   margin-bottom: 60px;
 }
+
 .footer {
   position: fixed;
   bottom: 0;
