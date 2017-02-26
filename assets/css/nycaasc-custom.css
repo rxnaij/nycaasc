@@ -194,7 +194,9 @@ img.headshots {
 #menu.navbar-default .navbar-nav>li>a {
     color: rgba(173, 173, 173, 1);
     background-color: rgba(248, 248, 248, 0);
-    transition: .3s ease;
+    transition: .2s ease;
+    transition-delay: 0s;
+    transition-property: all;
 }
 #menu.navbar-default .navbar-nav>li>a:hover,
 #menu.navbar-default .navbar-nav>li>a:focus {
@@ -277,11 +279,16 @@ h3 {
   font-size: 1.8em;
 }
 
+/* Theme
+------------ */
 #theme-statement {
   font-size: 1.25em;
   line-height: 1.5;
 }
 #theme-statement.h3 {
 
+
+}
+#faq {
 
 }
