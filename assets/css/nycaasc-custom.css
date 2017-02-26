@@ -275,9 +275,10 @@ h2 {
 h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
-
-.copy {
+div.copy {
   width: 90%;
+}
+p.copy {
   font-size: 1.3em;
   line-height: 1.6;
 }
@@ -376,6 +377,9 @@ img.headshot {
     height: 300px;
     width: 300px;
 }
+.eboard-list {
+  margins: 0 auto;
+}
 .eboard-name {
   display: block!important;
   margin-left: 50;
@@ -389,6 +393,7 @@ img.headshot {
   text-align: center;
 }
 .email {
+  margin-top: 0;
   font-size: 1.3em;
   text-align: center;
 }
