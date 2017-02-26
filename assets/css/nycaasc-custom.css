@@ -328,14 +328,14 @@ h3 {
   text-align: center;
 }
 #about-learn-more {
-  
+
 }
 #about-register {
 
 }
 #about-action>a>div:hover,
 #about-action>a>div:focus {
-    ;
+    background-color: #fff6f6
     transition: .2s ease;
     transition-delay: 0s;
     transition-property: all;
