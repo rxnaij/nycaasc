@@ -250,16 +250,20 @@ html {
 
 #nycaasc-header-image {
   max-width: 100%;
+  width: 100%;
   height: auto!important;
 }
 
 main {
   background-color: white;
-  width: 90%;
   margin: 0 auto;
   padding: 50px;
   font: "Helvetica Neue", Helvetica, sans-serif;
 }
+section {
+  width: 90%;
+}
+
 h1 {
   font-family: Futura, Helvetica, sans-serif;
 
@@ -281,12 +285,14 @@ h3 {
 
 /* Home
 ------------ */
+
 #faq>ul>li {
   background-color: #fff6f6;
   padding: 20px;
 }
 #faq>ul>li>h3 {
-  font-size: 1.9em;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 #faq>ul>li>p {
