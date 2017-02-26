@@ -162,7 +162,7 @@
 }*/
 
 .footer {
-  position: inherit;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here
@@ -275,16 +275,15 @@ div.copy {
   font-size: 2em;
 }
 
-.btn-large {
-  background-color: #fff6f6;
+.btn-lg {
+  background-color: #FF3059;
+}
+.btn-lg:hover {
+  background-color: #DD163E;
 }
 
 /* Home
 ------------ */
-
-
-
-
 
 /* Theme
 ------------ */
