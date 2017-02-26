@@ -277,15 +277,16 @@ h3 {
   font-size: 1.3em;
   line-height: 1.6;
 }
+.big-copy {
+  font-size: 2em;
+}
 
 /* Home
 ------------ */
 
 
 
-#about-copy {
-  font-size: 2em;
-}
+
 
 /* Theme
 ------------ */
@@ -321,6 +322,7 @@ h3 {
   background-color: #efefef;
   padding: 80px;
   text-align: center;
+  color: gray;
 }
 #about-learn-more {
   background-color: #BFD1E5;
