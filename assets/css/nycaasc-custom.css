@@ -75,11 +75,7 @@
     margin-top:-2%;
 }
 
-img.headshots {
-    display: block!important;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #BioName {
     font-size: 150%;
@@ -277,39 +273,109 @@ h3 {
 }
 
 .copy {
-  font-size: 1.25em;
-  line-height: 1.5;
+  width: 90%;
+  font-size: 1.3em;
+  line-height: 1.6;
 }
 
 /* Home
 ------------ */
 
-#faq>ul>li {
-  background-color: #fff6f6;
-  padding: 20px;
-}
-#faq>ul>li>h3 {
-  font-size: 1.5em;
-  font-weight: 500;
-}
 
-#faq>ul>li>p {
-  color: #666;
-}
 
 #about-copy {
+  font-size: 2em;
 }
 
 /* Theme
 ------------ */
 #theme-statement {
-  font-size: 1.25em;
-  line-height: 1.5;
-}
-#theme-statement.h3 {
-
 
 }
-#faq {
+.theme-statement-emphasis {
+  font-size: 1.6em;
+  line-height: normal;
+  color: #4F646F;
+  padding: 15px 10px;
+}
+.theme-statement-regular {
+  padding: 15px 10px;
+}
 
+/* About
+--------- */
+#about-page-copy {
+  padding: 15px 10px;
+}
+
+#about-cta {
+
+
+}
+#about-action>a>div {
+  margin: 30 auto;
+  background-color: #efefef;
+  padding: 80px;
+  text-align: center;
+}
+#about-learn-more {
+  background-color: #BFD1E5;
+}
+#about-register {
+  background-color: #BCFFDB;
+}
+#about-action>a>div:hover,
+#about-action>a>div:focus {
+    background-color: #fff6f6;
+    transition: .2s ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+#faq>ul>li {
+  margin: auto, auto, 30, 30;
+  border-color: white;
+}
+#faq>ul>li {
+  background-color: #fff6f6;
+  padding: 25px;
+}
+#faq>ul>li>h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+#faq>ul>li>p {
+  color: #666;
+}
+/* Eboard
+---------- */
+img.headshot {
+    display: block!important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+.eboard-name {
+  display: block!important;
+  margin-left: 50;
+  margin-right: 50;
+  color: #4F646F;
+  text-align: center;
+}
+.school {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.email {
+  font-size: 1.3em;
+  text-align: center;
+}
+.bio {
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #4F646F;
+  padding-left: 50;
+  padding-right: 50;
 }
