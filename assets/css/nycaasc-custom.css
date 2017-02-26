@@ -323,7 +323,7 @@ h3 {
 }
 #about-action>a>div {
   margin: 30 auto;
-  background-color: #efefef;
+  background-color: #fff6f6;
   padding: 80px;
   text-align: center;
 }
@@ -335,7 +335,7 @@ h3 {
 }
 #about-action>a>div:hover,
 #about-action>a>div:focus {
-    background-color: #fff6f6
+    background-color: #efefef;
     transition: .2s ease;
     transition-delay: 0s;
     transition-property: all;
