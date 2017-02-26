@@ -301,6 +301,10 @@ h3 {
 .theme-statement-regular {
   padding: 15px 10px;
 }
+#theme-questions>ul>li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* About
 --------- */
