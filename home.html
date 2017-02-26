@@ -42,6 +42,7 @@
       <!-- Theme logo banner/carousel -->
       <div class="container">
         <div class="row">
+
           <img id="nycaasc-header-image" src="assets/img/logo/REALITIES_WEB_banner.png" alt="NYCAASC 2017: REALITIES">
         </div>
         <div class="jumbotron">
@@ -55,7 +56,7 @@
 
       <!-- Register button here -->
     </section>
-    <section id="about-copy">
+    <section>
       <div id="conf-slides" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -95,46 +96,14 @@
         </a>
       </div>
       <h2>The New York City Asian American Student Conference</h2>
-      <p>NYCAASC is a student-run, intercollegiate organization dedicated to bringing together students from all around New York City to learn about social issues regarding the Asian/Pacific Islander American community.</p>
+      <p id="about-copy">NYCAASC is a student-run, intercollegiate organization dedicated to bringing together students from all around New York City to learn about social issues regarding the Asian/Pacific Islander American community.</p>
       <a href="about.html" class="btn btn-primary btn-lg">Learn more about NYCAASC</a>
     </section>
-
-    <aside>
-      <h2>Help get in the spirit for NYCAASC 2017!</h2>
-      <h3>Follow us on social media for updates and help spread the word about the conference!</h3>
-      <div class="container" style="width:90%">
-        <div class="row">
-          <div class="col-xs-4">
-            <a href="https://facebook.com/nycaascpage" title="Like NYCAASC on Facebook"> <img class="socialmedia" src="assets/img/fb.svg" alt="Facebook logo" style="width:30%"> </a>
-          </div>
-          <div class="col-xs-4">
-            <a href="https://instagram.com/nycaasc" title="Follow NYCAASC on Instagram"> <img class="socialmedia" src="assets/img/in.svg" alt="Instagram logo" style="width:30%"> </a>
-          </div>
-          <div class="col-xs-4">
-            <a href="https://twitter.com/nycaasc" title="Follow NYCAASC on Twitter"> <img class="socialmedia" src="assets/img/tw.svg" title="Twitter logo" style="width:30%"> </a>
-          </div>
-        </div>
-      </aside>
 
     </main>
 
   </div> <!-- /container -->
   <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <p class="text-muted">&copy; The New York City Asian American Student Conference 2017</p>
-        </div>
-        <div class="col-sm-4">
-            <span><a href="https://facebook.com/nycaascpage" title="Like NYCAASC on Facebook"> <img class="socialmedia" src="assets/img/fb.svg" alt="Facebook logo" style="width:10%"> </a></span>
-            <span><a href="https://instagram.com/nycaasc" title="Follow NYCAASC on Instagram"> <img class="socialmedia" src="assets/img/in.svg" alt="Instagram logo" style="width:10%"> </a></span>
-            <span><a href="https://twitter.com/nycaasc" title="Follow NYCAASC on Twitter"> <img class="socialmedia" src="assets/img/tw.svg" title="Twitter logo" style="width:10%"> </a></span>
-          </div>
-        </div>
-        <div class="col-sm-4">
-        </div>
-      </div>
-    </div>
   </footer>
 
   <!-- Bootstrap core JavaScript
@@ -160,6 +129,7 @@
   <script>
   $(function(){
     $("#header").load("header.html");
+    $("footer").load("footer.html");
     });
   </script>
 </body>
