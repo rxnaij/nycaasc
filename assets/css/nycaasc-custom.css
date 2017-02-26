@@ -239,30 +239,17 @@
 /* Page styles
 -------------------- */
 
-html {
-
-}
-
 #nycaasc-header-image {
   max-width: 100%;
   width: 100%;
   height: auto!important;
 }
-
 main {
   background-color: white;
   margin: 0 auto;
   padding: 50px;
   font: "Helvetica Neue", Helvetica, sans-serif;
 }
-section {
-
-}
-
-p>a {
-  color: #ff6663;
-}
-
 h1 {
   font-family: Futura, Helvetica, sans-serif;
   color: #ff6663;
@@ -271,14 +258,16 @@ h2 {
   font-family: "Helvetica Neue", sans-serif;
   color: #4F646F;
 }
-
+p>a {
+  color: #ff6663;
+}
 h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
 div.copy {
   width: 90%;
 }
-p.copy {
+.copy {
   font-size: 1.3em;
   line-height: 1.6;
 }
@@ -307,7 +296,7 @@ p.copy {
   line-height: normal;
   color: #4F646F;
   padding: 15px 10px;
-  text-align: justified;
+  text-align: justified;;
 }
 .theme-statement-regular {
   padding: 15px 10px;
