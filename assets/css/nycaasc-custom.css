@@ -165,7 +165,7 @@ img.headshots {
 }*/
 
 .footer {
-  position: fixed;
+  position: inherit;;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here
@@ -245,7 +245,7 @@ img.headshots {
 -------------------- */
 
 body {
-  background-color: #FFEFEF;
+
 }
 
 #nycaasc-header-image {
@@ -258,25 +258,28 @@ main {
   width: 90%;
   margin: 0 auto;
   padding: 50px;
-  font: 1em "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: normal;
-  line-height: 1.48;
+  font: "Helvetica Neue", Helvetica, sans-serif;
 }
 h1 {
   font-family: Futura, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 3em;
+
   color: #ff6663;
 }
 h2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 2em;
   color: #4F646F;
 }
 
 h3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 1.8em;
+
+}
+
+/* Home
+------------ */
+#faq>ul {
+  background-color: #fff6f6;
+  padding: 10px;
 }
 
 /* Theme
