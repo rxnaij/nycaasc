@@ -183,7 +183,7 @@
 
 /* Header style
 ------------------------- */
-#menu.navbar-default .navbar-nav>li {
+#menu.navbar-default .navbar-brand .navbar-nav>li {
     margin-top: 10px;
     margin-bottom: 10px;
 }
