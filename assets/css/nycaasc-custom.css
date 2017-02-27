@@ -1,4 +1,13 @@
-
+/* Logo formatting
+--------------------- */
+.logo-text {
+  font-family: "Streetvertising Medium", Roboto;
+}
+.logo-red {
+  color = rgba(209,50,56,1)
+}
+/* Archival
+------------- */
 .bs-docs-header {
     position: relative;
     padding: 30px 0;
@@ -217,13 +226,6 @@
 #menu.navbar-default .navbar-toggle:hover .icon-bar,
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #ffffff;
-}
-@@font-face {
-  font-family: "Streetvertising";
-  src: url(https://nycaasc.com/assets/fonts/Steetvertising_Medium_Public.ttf) format("truetype");
-}
-p.logo-font {
-    font-family: "Streetvertising", "Helvetica Neue", "Roboto";
 }
 
 /* Social media styles
