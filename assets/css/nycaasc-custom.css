@@ -176,7 +176,7 @@
 }*/
 
 #foot {
-  position: fixed;
+  position;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here
@@ -276,6 +276,8 @@ h1 {
 h2 {
   font-family: "Helvetica Neue", sans-serif;
   color: #4F646F;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 p>a {
   color: #ff6663;
@@ -381,10 +383,9 @@ div.copy {
 ---------- */
 img.headshot {
     display: block!important;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: 300px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 .eboard-list {
   margins: 0 auto;
