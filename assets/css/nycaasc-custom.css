@@ -176,7 +176,7 @@
 }*/
 
 #foot {
-  position: sticky;
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here
@@ -315,7 +315,7 @@ div.copy {
   line-height: normal;
   color: #4F646F;
   padding: 15px 10px;
-  text-align: justified;;
+  text-align: justified;
 }
 .theme-statement-regular {
   padding: 15px 10px;
