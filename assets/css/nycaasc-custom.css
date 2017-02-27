@@ -218,7 +218,13 @@
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #ffffff;
 }
-
+@@font-face {
+  font-family: "Streetvertising";
+  src: url(https://nycaasc.com/assets/fonts/Steetvertising_Medium_Public.ttf) format("truetype");
+}
+p.logo-font {
+    font-family: "Streetvertising", "Helvetica Neue", "Roboto";
+}
 
 /* Social media styles
 ------------------------- */
