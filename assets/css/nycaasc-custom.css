@@ -122,7 +122,6 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   width: 100%;
-  height: auto;
   background-color: #777;
 }
 .carousel-inner > .item > img {
