@@ -175,7 +175,7 @@
   margin-bottom: 60px;
 }*/
 
-#footer {
+#foot {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -185,7 +185,7 @@
   border-top-width: 1px;
   padding-bottom: 20px;
 }
-#footer>div {
+#foot>div {
   background-color: #f5f5f5;
   color: #727272;
   padding: 20px;
