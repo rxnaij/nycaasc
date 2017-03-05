@@ -270,7 +270,7 @@ main {
 }
 h1 {
   font-family: Futura, Helvetica, sans-serif;
-  color: #ff6663;
+  color: #d13238;
 }
 h2 {
   font-family: "Helvetica Neue", sans-serif;
@@ -295,7 +295,7 @@ div.copy {
 }
 
 .btn-lg {
-  background-color: #FF3059;
+  background-color: #d13238;
 }
 .btn-lg:hover {
   background-color: #DD163E;
