@@ -318,9 +318,7 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 }
 
 .nav {
-  margin-top, margin-bottom: 50px;
   font-family: "Streetvertising Medium", "Helvetica Neue", sans-serif;
-  background-color: rgba(209,50,56,1)
 }
 
 /* Home
