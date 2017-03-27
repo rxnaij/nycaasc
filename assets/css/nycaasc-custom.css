@@ -267,6 +267,8 @@ main {
   margin: 0 auto;
   padding: 50px;
   font: "Helvetica Neue", Helvetica, sans-serif;
+  display: block;
+  width: 90%;
 }
 h1 {
   font-family: Futura, Helvetica, sans-serif;
@@ -284,8 +286,6 @@ p>a {
 h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
-div.copy {
-}
 .copy {
   font-size: 1.3em;
   line-height: 1.6;
@@ -293,18 +293,21 @@ div.copy {
 .big-copy {
   font-size: 2em;
 }
-
 .btn-lg {
   background-color: #d13238;
 }
 .btn-lg:hover {
   background-color: #DD163E;
 }
+.btn-custom {
+  display: inline;
+  padding: 20px;
+}
 
 /* Home
 ------------ */
 
-/* Theme
+/* Conference
 ------------ */
 #theme-statement {
 
@@ -363,20 +366,18 @@ div.copy {
     transition-property: all;
 }
 
-#faq>ul>li {
-  margin: auto, auto, 30, 30;
+.faq>ul>li {
+  margin: 30, 30;
   border-color: white;
-}
-#faq>ul>li {
-  background-color: #fff6f6;
+  background-color: #fff2f2;
   padding: 25px;
+  color: #444;
+  font-size: 1.2em;
 }
-#faq>ul>li>h3 {
-  font-size: 1.3em;
+.faq>ul>li>h3 {
   font-weight: 500;
-}
-#faq>ul>li>p {
-  color: #666;
+  font-size: 1.5em;
+  color: #d13238;
 }
 /* Eboard
 ---------- */
