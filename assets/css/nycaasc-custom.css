@@ -166,27 +166,15 @@
 }
 /* Sticky footer styles
 -------------------------------------------------- */
-/*html {
-  position: relative;
-  min-height: 100%;
-}*/
-/*body {
-    Margin bottom by footer height
-  margin-bottom: 60px;
-}*/
-
 #foot {
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here
-  height: 60px;*/
   background-color: #f5f5f5;
   border-top-width: 1px;
   border-top-style: outset;
   padding-bottom: 20px;
 }
 #foot>div {
-  background-color: #f5f5f5;
   color: #727272;
   padding: 20px;
 }
@@ -293,15 +281,46 @@ h3 {
 .big-copy {
   font-size: 2em;
 }
-.btn-lg {
+.btn-primary {
   background-color: #d13238;
 }
-.btn-lg:hover {
-  background-color: #DD163E;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #dd163e;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active {
+  background-color: #dd163e;
+}
+.btn-primary .badge {
+  color: #DE0000;
+  background-color: #ffffff;
 }
 .btn-custom {
   display: inline;
   padding: 20px;
+}
+
+.nav {
+  margin-top, margin-bottom: 50px;
+  font-family: "Streetvertising Medium", "Helvetica Neue", sans-serif;
+  background-color: rgba(209,50,56,1)
 }
 
 /* Home
