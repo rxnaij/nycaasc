@@ -430,3 +430,10 @@ img.headshot {
   padding-left: 50;
   padding-right: 50;
 }
+
+/* Charts (on budget.html)
+---------- */
+#chart {
+  height: 85%;
+  width: 85%;
+}

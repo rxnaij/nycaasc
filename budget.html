@@ -29,6 +29,9 @@
     <!--[if lt IE 9]><script src="..//assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
+    <!--Chart.js script for budget infographics-->
+	<script src="assets/js/Chart.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -43,13 +46,267 @@
     <main role="main">
     <header>
       <h1>Budget</h1>
+
     <div>
-    <div class="copy" style="width: inherit">
-      <p class="copy">Like many other non-profit organizations, we want to be transparent and open with you, the public. To do so, we have made our budget visible for anyone to view. Keeping the conference free to all attendees while making sure the speakers, workshop members, and performers receive the compensation they deserve is very important to NYCAASC.</p>
-<p>If you can relate to NYCAASC’s mission and are interested in supporting our goals, please consider being a sponsor! Anything you donate will go towards creating a safe space for students to learn about the APIA community.</p>
-<p>The budget is updated weekly. Feel free to email  <a href="mailto:lisa@nycaasc.com">lisa@nycaasc.com</a> for any questions, comments, or concerns!</P>
-<p>Thanks from all of us at NYCAASC for your support -- we really appreciate it!</p>
-    </div>
+
+	    <div class="copy" style="width: inherit">
+	    	<p class="copy">Like many other non-profit organizations, we want to be transparent and open with you, the public. To do so, we have made our budget visible for anyone to view. Keeping the conference free to all attendees while making sure the speakers, workshop members, and performers receive the compensation they deserve is very important to NYCAASC.</p>
+			<p>If you can relate to NYCAASC’s mission and are interested in supporting our goals, please consider being a sponsor! Anything you donate will go towards creating a safe space for students to learn about the APIA community.</p>
+			<p>The budget is updated weekly. Feel free to email  <a href="mailto:lisa@nycaasc.com">lisa@nycaasc.com</a> for any questions, comments, or concerns!</p>
+			<p>Thanks from all of us at NYCAASC for your support -- we really appreciate it!</p>
+	    </div>
+
+	    <hr>
+    	<!-- Source (pie chart) -->
+	    <div class = "container" style = "width: inherit">
+		    <div class = "row">
+			    <div class = "col-md-6">
+
+					<div id = "chart">
+				    	<canvas id = "sourceChart"></canvas>
+						<script>
+						    var ctx = document.getElementById("sourceChart");
+
+						    var data = {
+								labels: [
+							        "SAB Budget",
+							        "Fund 22 Donation",
+							        "APA Institute",
+							        "AAARI - CUNY",
+							        "OCA - NY",
+							        "CMEP - NYU",
+							        "Cliffs",
+							        "T-shirt sales"
+							    ],
+
+							    datasets: [
+							        {
+							            data: [4000, 1003, 1500, 250, 250, 250, 750, 57],
+							            backgroundColor: [
+							                "#D13238",
+							                "#B32D50",
+							                "#952869",
+							                "#772382",
+							                "#591E9A",
+							                "#3B19B3",
+							                "#1D14CC",
+							                "#0010E5"
+							            ],
+							            
+							            hoverBackgroundColor: [
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663"
+							            ]
+							        }]
+							};
+
+							var sourceChart = new Chart(ctx, {
+							    type: 'doughnut',
+							    percentageInnerCutout: 50,
+							    data: data,
+							    responsive: false,
+							    maintainAspectRatio: false,
+							    options: {
+							    	animation: {
+							    		animateScale: true
+							    	},
+
+							    	legend: {
+							    		position: 'left',
+							    		labels: {
+										    fontColor: "#444444",
+								            fontFamily: "'Roboto', 'Helvetica', sans-serif",
+										    boxWidth: 12
+				    			
+							    		}
+							    	},
+
+							    	tooltips: {
+							    		backgroundColor: 'rgba(255,255,255,0.8)',
+							    		bodyFontFamily: "'Roboto', 'Helvetica', sans-serif",
+							    		bodyFontSize: 10,
+							    		bodyFontColor: "#D13238",
+							    		displayColors: false
+
+							    	}
+							    }
+							});
+						</script>
+				    </div>
+
+			    </div>
+
+			    <div class = "col-md-6">
+				    <h3>Sources of Funding</h3>
+				    <p class="copy">NYCAASC is funded by a variety of parties. Because NYCAASC is housed under the club Asian Heritage Month (AHM) at NYU, the majority of our budget comes from money allocated to us by AHM. Our Publicity / Fundraising team works to obtain sponsorship from various community organizations, as well as putting on other fundraising events to raise money from NYCAASC.  Even with all this, we need $4,000 to cover the remaining costs of the conference (paying for food, performances, and technical fees).  We've started a crowdfunding platform to raise the additional amount — <a href = "http://risingviolets.nyu.edu/nycaasc"> www.risingviolets.nyu.edu/nycaasc </a>. Any dollar amount, no matter how small, helps! If you are able to help out financially, we would really appreciate it! Thanks for your support!</p>
+			    </div>
+			</div>
+	    </div>
+
+	    <hr>
+	    <!-- Guidelines -->
+	    <div class = "container" style = "width: inherit">
+		    <div class = "row">
+			    <div class = "col-md-6">
+					<h3>Guidelines</h3>
+					<!-- will need to add a footnote for the "**" in the table -->
+				    <p class="copy">These are the suggested amounts we spend on each category. Honorariums for workshops start at $50, but are negotiated with each individual depending on the amount of money we have.
+
+				    <br>
+				    <br>** Spending amount differs with the number of people we need to accomodate</p>
+			    </div>
+
+			    <div class = "col-md-6" style = "padding-top: 30px">
+			    	<div class="table-responsive">
+					    <table class="table table-hover">
+					    	<tr>
+					    		<th class = "logo-red">Expense</th>
+					    		<th class = "logo-red">For</th>
+					    		<th class = "logo-red">Price per person</th>
+					    		<th class = "logo-red">Amount of expected people**</th>
+					    		<th class = "logo-red">Total to be spent**</th>
+					    	</tr>
+
+					    	<tr>
+					    		<td>Honorariums</td>
+					    		<td>Workshop Participants</td>
+					    		<td>$50</td>
+					    		<td>48</td>
+					    		<td>$2,400</td>
+					    	</tr>
+
+					    	<tr>
+					    		<td>Food</td>
+					    		<td>Attendees</td>
+					    		<td>$5</td>
+					    		<td>300</td>
+					    		<td>$1,500</td>
+					    	</tr>
+						</table>	
+					</div>			    
+			    </div>
+			</div>
+	    </div>
+
+	   	<hr>
+
+	    <!-- Expenses -->
+	    <div class = "container" style = "width: inherit">
+
+			<h3>Expenses</h3>
+			<!-- will need to add a footnote for the "**" in the table -->			
+		    <p class="copy">This is what NYCAASC spends its money on! Production means any costs the team may collect when putting on NYCAASC — transportation fees, rentals, etc. Workshops means any honorariums for those leading workshops as well as any supplies needed for workshops. Events pays for the performance fees. Logistics expenses are costs related to the venue.
+		    <br>
+			<br>** Spending amount differs with the number of people we need to accomodate</p>
+
+	    	<div class="table-responsive" style = "padding-top: 30px">
+			    <table class="table table-hover">
+			    	<tr>
+			    		<th class = "logo-red">Committee</th>
+			    		<th class = "logo-red">Purpose</th>
+			    		<th class = "logo-red">For Whom?</th>
+			    		<th class = "logo-red">Amount**</th>
+			    	</tr>
+
+			    	<tr>
+			    		<td>Production</td>
+			    		<td>Transportation</td>
+			    		<td>Team</td>
+			    		<td>$100</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td>Workshops</td>
+			    		<td>Honorariums</td>
+			    		<td>Workshops participants</td>
+			    		<td>$1500</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Supplies</td>
+			    		<td></td>
+			    		<td>$300</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td>Events</td>
+			    		<td>Performance</td>
+			    		<td>Kim Chinh</td>
+			    		<td>$500</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Performance</td>
+			    		<td>Tim Atlas</td>
+			    		<td>$1000</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Keynote</td>
+			    		<td>TBD</td>
+			    		<td>$500</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Food</td>
+			    		<td>Attendees</td>
+			    		<td>$1500</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td>Marketing</td>
+			    		<td>Programs</td>
+			    		<td>Attendees</td>
+			    		<td>$1000</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Promo Video</td>
+			    		<td>Post-its</td>
+			    		<td>$8</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td>Website Renewal</td>
+			    		<td>NYCAASC</td>
+			    		<td>$12</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td>Logistics</td>
+			    		<td>Technical Fees</td>
+			    		<td>Kimmel Ops</td>
+			    		<td>$2000</td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td></td>			    		
+			    		<td class = "logo-red"><strong>Total</strong></td>
+			    		<td class = "logo-red"><strong>$8320</strong></td>
+			    	</tr>
+
+			    	<tr>
+			    		<td></td>
+			    		<td></td>
+			    		<td class = "logo-red"><strong>Money to Raise</strong></td>
+			    		<td class = "logo-red"><strong>$1816</strong></td>
+			    	</tr>
+				</table>	
+			</div>			    
+	    </div>
   </div>
   </header>
     </main>
