@@ -200,123 +200,125 @@
 
 	   	<hr>
 
-	    <!-- Expenses -->
+	    <!-- Expenses (test) -->
 	    <div class = "container" style = "width: inherit">
-	    	<div class="budget-copy">
-				<h3>Expenses</h3>
-				<!-- will need to add a footnote for the "**" in the table -->			
-			    <p>This is what NYCAASC spends its money on! Production means any costs the team may collect when putting on NYCAASC — transportation fees, rentals, etc. Workshops means any honorariums for those leading workshops as well as any supplies needed for workshops. Events pays for the performance fees. Logistics expenses are costs related to the venue.
-			    <br>
-				<br>** Spending amount differs with the number of people we need to accomodate.</p>
+		    <div class = "row">
+			    <div class = "col-sm-6">
+					<div class="budget-copy" style = "padding-right: 60px">
+						<h3>Expenses</h3>
+						<!-- wow i know inline styling is BAD practice but i don't want to make a new id for this section -->			
+					    <p>This is what NYCAASC spends its money on! Production means any costs the team may collect when putting on NYCAASC — transportation fees, rentals, etc. Workshops means any honorariums for those leading workshops as well as any supplies needed for workshops. Events pays for the performance fees. Logistics expenses are costs related to the venue.</p>
+
+					    <div id = "progress-bar">
+					    <!--a simple progress bar showing how much we have-->
+					    </div>
+
+						<div class="table-responsive">
+						    <table class="table table-hover">
+						    	<tbody>
+							    	<tr>
+							    		<td></td>
+							    		<td></td>			    		
+							    		<td class="logo-red"><strong>Total</strong></td>
+							    		<td class="logo-red">$8320</td>
+							    	</tr>
+
+							    	<tr>
+							    		<td></td>
+							    		<td></td>
+							    		<td class="logo-red"><strong>Money to Raise</strong></td>
+							    		<td class="logo-red">$4000</td>
+							    	</tr>
+								</tbody>
+							</table>
+
+							<a class="btn btn-primary btn-lg" href="http://risingviolets.nyu.edu/nycaasc" style = "left: 30%">Donate now!</a>
+						</div>
+
+					</div>
+			    </div>
+
+			    <div class = "col-sm-6" style = "padding-top: 30px">
+
+					<div id = "chart">
+				    	<canvas id = "totalChart"></canvas>
+						<script>
+						    var ctx = document.getElementById("totalChart");
+
+						    var data = {
+								labels: [
+							        "Production",
+							        "Workshops",
+							        "Events",
+							        "Marketing",
+							        "Logistics"
+							    ],
+
+							    datasets: [
+							        {
+							            data: [100, 1800, 3500, 1020, 2000],
+							            backgroundColor: [
+							            	"#001CE5",
+							                "#3421B9",
+							                "#68278E",
+							                "#9C2C63",
+							                "#D13238",
+
+							            ],
+							            
+							            hoverBackgroundColor: [
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663",
+							                "#FF6663"
+							            ]
+							        }]
+							};
+
+							var totalChart = new Chart(ctx, {
+							    type: 'doughnut',
+							    percentageInnerCutout: 50,
+							    data: data,
+							    options: {
+							    	animation: {
+							    		animateScale: true
+							    	},
+
+							    	legend: {
+							    		display: true,
+							    		position: 'left',
+							    		fullWidth: false,
+							    		labels: {
+										    fontColor: "#444444",
+								            fontFamily: "'Roboto', 'Helvetica', sans-serif",
+										    boxWidth: 12
+				    			
+							    		}
+							    	},
+
+							    	tooltips: {
+							    		backgroundColor: 'rgba(255,255,255,0.8)',
+							    		bodyFontFamily: "'Roboto', 'Helvetica', sans-serif",
+							    		bodyFontSize: 10,
+							    		bodyFontColor: "#D13238",
+							    		displayColors: false
+
+							    	}
+							    }
+							});
+						</script>
+		    		</div>
+			    </div>
 			</div>
-
-	    	<div class="table-responsive" style = "padding-top: 30px">
-			    <table class="table table-hover">
-			    	<tr>
-			    		<th class = "logo-red">Committee</th>
-			    		<th class = "logo-red">Purpose</th>
-			    		<th class = "logo-red">For Whom?</th>
-			    		<th class = "logo-red">Amount**</th>
-			    	</tr>
-
-			    	<tr>
-			    		<td>Production</td>
-			    		<td>Transportation</td>
-			    		<td>Team</td>
-			    		<td>$100</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td>Workshops</td>
-			    		<td>Honorariums</td>
-			    		<td>Workshops participants</td>
-			    		<td>$1500</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Supplies</td>
-			    		<td></td>
-			    		<td>$300</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td>Events</td>
-			    		<td>Performance</td>
-			    		<td>Kim Chinh</td>
-			    		<td>$500</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Performance</td>
-			    		<td>Tim Atlas</td>
-			    		<td>$1000</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Keynote</td>
-			    		<td>TBD</td>
-			    		<td>$500</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Food</td>
-			    		<td>Attendees</td>
-			    		<td>$1500</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td>Marketing</td>
-			    		<td>Programs</td>
-			    		<td>Attendees</td>
-			    		<td>$1000</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Promo Video</td>
-			    		<td>Post-its</td>
-			    		<td>$8</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td>Website Renewal</td>
-			    		<td>NYCAASC</td>
-			    		<td>$12</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td>Logistics</td>
-			    		<td>Technical Fees</td>
-			    		<td>Kimmel Ops</td>
-			    		<td>$2000</td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td></td>			    		
-			    		<td class = "logo-red"><strong>Total</strong></td>
-			    		<td class = "logo-red"><strong>$8320</strong></td>
-			    	</tr>
-
-			    	<tr>
-			    		<td></td>
-			    		<td></td>
-			    		<td class = "logo-red"><strong>Money to Raise</strong></td>
-			    		<td class = "logo-red"><strong>$1816</strong></td>
-			    	</tr>
-				</table>	
-			</div>			    
 	    </div>
-  </div>
-  </header>
-    </main>
+	</div>
 
-    <footer id="footer"> </footer>
+	</header>
+
+	</main>
+
+	<footer id="footer"> </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
