@@ -246,10 +246,33 @@
 -------------------- */
 
 #nycaasc-header-image {
+
   max-width: 100%;
   width: 100%;
   height: auto!important;
 }
+#nycaasc2017-copy {
+
+}
+
+#fundraiser-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-bottom: 20px
+}
+
+#fundraiser-moreinfo {
+  font-size: 16px;
+  background-color:
+  rgba(245,245,245,1);
+  padding: 20px
+}
+
+div {
+
+}
+
 main {
   background-color: white;
   margin: 0 auto;
@@ -275,7 +298,7 @@ h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
 .copy {
-  font-size: 1.3em;
+  font-size: 20px;
   line-height: 1.6;
 }
 .big-copy {
