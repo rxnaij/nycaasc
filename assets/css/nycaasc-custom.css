@@ -417,6 +417,18 @@ Performers
   vertical-align: top;
 }
 
+.sched-header {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dfdfdf;
+}
+
+.sched-row {
+    background-color: #fff;
+}
+
 /* About
 --------- */
 #about-page-copy {
