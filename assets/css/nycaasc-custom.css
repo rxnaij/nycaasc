@@ -269,17 +269,12 @@
   padding: 20px
 }
 
-div {
 
-}
-
-main {
-  background-color: white;
-  margin: 0 auto;
-  padding: 50px;
-  font: "Helvetica Neue", Helvetica, sans-serif;
+#main {
+  /*background-color: white;*/
+  padding: 20px;
+  /*font: "Helvetica Neue", Helvetica, sans-serif;*/
   display: block;
-  width: 90%;
 }
 h1 {
   font-family: Futura, Helvetica, sans-serif;
@@ -347,30 +342,79 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 /* Home
 ------------ */
 
-/* Conference
+/* Conference:
+Theme statement
 ------------ */
 #theme-statement {
+  font-size: 1.3em;
 
 }
 .theme-statement-emphasis {
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: normal;
   color: #4F646F;
-  padding: 15px 10px;
-  text-align: justified;
 }
-.theme-statement-regular {
-  padding: 15px 10px;
+
+#theme-statement-cols {
+  margin-bottom: 1.5em;
 }
-#theme-questions>ul>li {
-  font-weight: 400;
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+#theme-questions {
+  margin-bottom: 2em;
 }
+
 #theme-register-button {
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 70px;
   text-align: center;
+}
+
+/* Conference:
+Performers
+-----------------------*/
+
+
+.performer-headshot {
+    max-height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.performer {
+
+}
+
+.performer>p {
+    text-align: justify;
+    padding-left,
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+.performer>h3 {
+    text-align: center;
+}
+
+.sched-header {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dfdfdf;
+  }
+
+.glyphicon.glyphicon-globe {
+    font-size: 29px;
+}
+
+.social-box {
+  text-align: center;
+  display: block;
+}
+
+.social-icon {
+  display: block;
+  vertical-align: top;
 }
 
 /* About

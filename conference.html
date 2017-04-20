@@ -40,170 +40,356 @@
     <header id="header"></header>
 
     <main role="main">
-        <header>
-            <!-- Register button here -->
 
-            <ul class="nav nav-pills nav-justified logo-text">
-                <li class="active"><a data-toggle="pill" href="#home">2017 CONFERENCE</a></li>
-                <li><a data-toggle="pill" href="#menu1">SCHEDULE</a></li>
-                <li><a data-toggle="pill" href="#menu2">FREQUENTLY ASKED QUESTIONS</a></li>
-            </ul><br>
+      <div class="container">
 
-            <img id="nycaasc-header-image" src="assets/img/logo/2017-conf-banner-lg.png" alt="NYCAASC 2017: REALITIES"></img>
+        <nav id="conference-nav">
+            <header>
+                <!-- Register button here -->
 
-        </header>
+                <ul class="nav nav-pills nav-justified logo-text">
+                    <li class="active"><a data-toggle="pill" href="#home">2017 CONFERENCE</a></li>
+                    <li><a data-toggle="pill" href==#menu1>PROGRAMMING</a></li>
+                    <li><a data-toggle="pill" href="#menu2">SCHEDULE</a></li>
+                    <li><a data-toggle="pill" href="#menu3">FREQUENTLY ASKED QUESTIONS</a></li>
+                </ul><br>
+
+                <img class="img-responsive" src="assets/img/logo/2017-conf-banner-lg.png" alt="NYCAASC 2017: REALITIES" style="">
+
+            </header>
+        </nav>
 
 
-        <section>
-            <div class="tab-content">
 
-                <div id="home" class="container-fluid tab-pane fade in active">
+        <div class="tab-content">
 
-                    <div id="theme-statement" class="container-fluid copy">
+            <div id="home" class="tab-pane fade in active">
 
-                        <h1>The Eleventh Annual NYCAASC: <strong>REALITIES</strong></h1>
+                <div id="theme-statement">
 
-                        <div class="row">
+                    <h1>The Eleventh Annual NYCAASC: <strong>REALITIES</strong></h1>
 
-                            <div class="col-xs-12 theme-statement-emphasis">
-                                <p><strong>2016 was an extremely divisive year - it revealed how little we truly know of our neighbors, even in New York City.</strong></p>
-                            </div>
+                    <p class="theme-statement-emphasis"><strong>2016 was an extremely divisive year - it revealed how little we truly know of our neighbors, even in New York City.</strong></p>
 
+                    <div id="theme-statement-cols" class="row">
+
+                        <div class="col-sm-6">
+                            <p>Our city is segregated by our various identities, like race and class. Although we share a single city border, we hardly know our neighbors beyond appearances and preconceived notions.</p>
                         </div>
 
-                        <div class="row">
-
-                            <div class="col-sm-6 theme-statement-regular">
-                                <p>Our city is segregated by our various identities, like race and class. Although we share a single city border, we hardly know our neighbors beyond appearances and preconceived notions.</p>
-                            </div>
-
-                            <div class="col-sm-6 theme-statement-regular">
-                                <p>This year’s conference will explore the theme of <strong>REALITIES</strong> -- By delving into the experiences, histories, and communities of our families and neighbors, NYCAASC 2017 aims to identify and question the power
-                                    structures that shape our realities.</p>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-xs-12 theme-statement-emphasis" style="margin: auto; text-align: center" id="theme-questions">
-                                <ul class="list-unstyled">
-                                    <li>What determines our realities?</li>
-                                    <li>Which realities are considered “authentic”?</li>
-                                    <li>And most importantly, whose realities become history?</li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-xs-12 theme-statement-emphasis">
-                                <p><strong>Through the power of communal storytelling, REALITIES invites attendees to challenge our perceived realities of one another and to mobilize our communities beyond borders. </strong></p>
-                                <p class="logo-red"><strong>Speakers and workshop information will be released in April, so stay tuned! </strong></p>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-sm-3"></div>
-
-                            <div class="col-sm-6" id="theme-register-button">
-                                <a class="btn btn-primary btn-lg btn-custom" href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Register for NYCAASC 2017</a>
-                            </div>
-
-                            <div class="col-sm-3"></div>
-
+                        <div class="col-sm-6">
+                            <p>This year’s conference will explore the theme of <strong>REALITIES</strong> -- By delving into the experiences, histories, and communities of our families and neighbors, NYCAASC 2017 aims to identify and question the power structures that shape our realities.</p>
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="theme-statement-emphasis" id="theme-questions">
 
-                <div id="menu1" class="tab-pane fade">
-                    <!--schedule & workshops, performers-->
-                    <h2>Schedule</h2>
-                    <p style="font-size: 1.2em">More information about schedule, workshops, performers, and speakers at NYCAASC 2017: REALITIES will be released in April. Stay tuned!</p><br><br>
-                </div>
+                      <p>What determines our realities?</p>
+                      <p>Which realities are considered “authentic”?</p>
+                      <p>And most importantly, whose realities become history?</p>
 
-                <div id="menu2" class="tab-pane fade">
-                    <!--FAQ-->
-                    <aside role="complementary">
+                    </div>
 
-                        <h2>Frequently Asked Questions</h2>
+                    <p class="theme-statement-emphasis"><strong>Through the power of communal storytelling, REALITIES invites attendees to challenge our perceived realities of one another and to mobilize our communities beyond borders. </strong></p>
 
-                        <div class="container faq" style='display:block; width:90%'>
+                    <div class="container" id="theme-register-button">
+                        <a class="btn btn-primary btn-lg btn-custom" href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Register for NYCAASC 2017!</a>
+                    </div>
 
-                            <ul class="list-group list-unstyled">
-                                <li class="list-group-item">
-                                    <h3>What is NYCAASC?</h3>
-                                    <p>The New York City Asian American Student Conference (NYCAASC) is NYC’s premier conference for exposing bright, young minds to issues that affect the Asian/Pacific Islander American community.</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>Where are we?</h3>
-                                    <p>We wouldn’t be NYCAASC without the NYC. The conference takes place at the NYU Kimmel Center for Student Life, which is located near the following subway stations: <strong>West 4 St - Washington Square</strong> (accessible
-                                        via the A, B, C, D, F, & M), <strong>Astor Place</strong> (6), and <strong>8 St - NYU</strong> (R and W). </p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>When is NYCAASC 2017 happening?</h3>
-                                    <p>Mark your calendars for <strong>April 29, 2017</strong>! The conference is all day long, from <strong>8:30 AM to 6:00 PM</strong>.</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>I’m not an Asian/Pacific Islander American. Can I still attend the conference?</h3>
-                                    <p>NYCAASC is run by APIA students, but is <strong>open to anyone</strong> interested in learning about Asian America, regardless of student <strong>status</strong>, <strong>race</strong>, or <strong>ethnicity</strong>!</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>How do I register? </h3>
-                                    <p><a href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Click here to RSVP for the conference on Eventbrite</a>. Just select the number of tickets you want, fill out your information, and you’re
-                                        good to go!</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>How much is the conference?</h3>
-                                    <p>It’s <strong>FREE</strong>!</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>Really? I don’t have to pay anything?</h3>
-                                    <p>Really really.</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>Will there be food?</h3>
-                                    <p><strong>YES</strong>! Broke college students, have no fear. We provide FREE breakfast, FREE lunch, and FREE snacks and refreshments!</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>Does NYCAASC host events other than the main conference in April?</h3>
-                                    <p>We have hosted a variety of satellite events alongside fellow APIA student clubs in the past, including open mics with a variety of headliners.</p>
-                                    <p>Currently, there are no events planned for the 2017 school year but we hope to continue to hold some in the future. </p>
-                                </li>
-                                <li class="list-group-item">
-                                    <h3>How can I support NYCAASC?</h3>
-                                    <p>The easiest way to support us is to just attend our conference! If you, for some reason, can’t make it to NYCAASC, you can always <strong>like and share</strong> our event on <strong>Facebook, Twitter, and Instagram</strong>                                        to help us spread the word about our conference; our conference’s longevity and success are dependent on <strong>YOU</strong>!</p>
-                                    <!-- Sponsorship/crowdfunding information. Update later
-              <p>If you want to help empower and inspire students in NYC,  feel free to sponsor us however much you’d like via our Kickstarter (<>) or GoFundMe (<>). We truly appreciate it, as it helps NYCAASC produce better, more engaging conferences and reach more students!</p>
-              <p>If you’re a company/organization, we’d love your support too! Sign up to be a sponsor here: <insert link to form>. We’d really appreciate your support!</p>
-              -->
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </aside>
-                </div>
-
-        </section>
-
-
-        <aside>
-
-            <div class="jumbotron container-fluid">
-                <div class="container">
-                    <h2>New to NYCAASC?</h2>
-                    <p>We are a day-long conference made by students, for students seeking to empower and inspire NYC students around Asian/Pacific Islander American issues.</p>
-                    <p><a class="btn btn-primary btn-lg" href="about.html">Learn more about us!</a></p>
                 </div>
             </div>
 
-        </aside>
+
+
+            <div id="menu1" class="tab-pane fade">
+
+              <h1>NYCAASC 2017: REALITIES Programming</h1>
+
+              <!--Keynote speaker-->
+
+              <h2 style="text-align:center">Keynote Speaker</h2>
+              <div class="row">
+                  <div class="col-sm-12 performer">
+                      <img class="performer-headshot img-responsive" src="assets/img/wks/2017/ALLAN.png">
+                      <h3 class="sched-header">Allan Isaac</h3>
+                      <p>Allan Punzalan Isaac is Associate Professor of American Studies and English and Chair of American Studies at Rutgers University. He is the author of American Tropics: Articulating Filipino America (2006), which received the
+                          Association for Asian American Studies Cultural Studies Book Award. He has taught at LaSalle University in Manila as a Senior Fulbright Scholar. His current work focuses on labor-time and Filipino migrant labor.</p>
+                  </div>
+              </div>
+
+              <!--Performers-->
+              <h2 style="text-align:center">Performers</h2>
+              <div class="row">
+                  <div class="col-sm-4 performer">
+                      <img class="performer-headshot img-responsive" src="assets/img/wks/2017/TIM.png">
+                      <h3 class="sched-header">Tim Atlas</h3>
+                      <ul class="list-inline" class="social-box">
+                        <li><a href="http://timatlasmusic.com/"><span class="glyphicon glyphicon-globe"></span></a></li>
+                        <li><a href="https://twitter.com/timothyatlas"><img class="social-icon" src="assets/img/socialmedia/twitter-icon-400.png" width="29px" height="29px"></a></li>
+                        <li><a href="https://www.facebook.com/timatlasmusic/"><img class="social-icon" src="assets/img/socialmedia/fb-logo-29.png"></a></li>
+                      </ul>
+                      <p><strong>Tim Atlas</strong> is an Indie singer-songwriter from the Silicon Valley, currently living in Los Angeles. Tim has found musical inspiration in the airy falsettos of Damien Rice and the endearingly wistful pop melodies of Feist. In
+                          2016, he released “Wander,” a single that premiered at #19 on the Spotify Global Viral Charts with over 1 million streams since its release in July 2016. While on a North American tour with Daniela Andrade, he released
+                          “Compromised”, a song that now sits at 2.3 million plays on Spotify. When Atlas isn’t performing as a solo artist, he works as a producer and writer in his home studio. He is currently gearing up to record his next EP,
+                          incorporating a more rhythmic, soulful approach, without straying from the folk elements his fans have grown to love.</p>
+                  </div>
+
+                  <div class="col-sm-4 performer">
+                      <img class="performer-headshot img-responsive" src="assets/img/wks/2017/KIM.png">
+                      <h3 class="sched-header">Kim Chinh</h3>
+                      <ul class="list-inline" class="social-box">
+                        <li><a href="http://www.reclaimingvietnam.com/"><span class="glyphicon glyphicon-globe"></span></a></li>
+                        <li><a href="https://twitter.com/kimbchinh"><img class="social-icon" src="assets/img/socialmedia/twitter-icon-400.png" width="29px" height="29px"></a></li>
+                        <li><a href="https://www.facebook.com/reclaimingvietnam"><img class="social-icon" src="assets/img/socialmedia/fb-logo-29.png"></a></li>
+                      </ul>
+                      <p><strong>Kim Chinh</strong> began her acting career at the Alley Theater in Houston, Texas. She has appeared in several shorts including The Face written and directed by Elizabeth Browning, L to Canarsie, and See Something Say Something both written
+                          and directed by Alice Cox. On stage, she played Maggie in The Chinese Restaurant Syndrome directed by April Feld Sandor at the Walnut Street Theatre in Philadelphia. She played Lia in Big Flower Eater written and directed
+                          by Victoria Linchong. Cesi Davidson, playwright, has featured Kim in several of her story-telling series and staged readings. Kim participated in New York’s Summerstages as a cast member of SPEAK featuring the music and
+                          spoken word of Marla Mase and the Tomas Doncker band. Kim’s solo show, Reclaiming Vietnam, has been performed at the New York and Edinburgh Fringe Festivals, and will be seen on the west coast this September at the San
+                          Francisco Fringe. Her play has been performed for students at Fordham University and St. Joseph's College with an upcoming performance at Kingsborough Community College in May. She is thrilled and honored to have the opportunity
+                          to present her work to the NYCAASC.</p>
+                  </div>
+                  <div class="col-sm-4 performer">
+                      <img class="performer-headshot img-responsive" src="assets/img/wks/2017/BRETT.png" style="display:block; margin: 0 auto;">
+                      <h3 class="sched-header">Brett Kodama</h3>
+                      <ul class="list-inline" class="social-box">
+                        <li><a href="https://vimeo.com/suspiciousbiscotti"><span class="glyphicon glyphicon-globe"></span></a></li>
+                      </ul>
+                      <p><strong>Brett Ryoji Kodama</strong> is a Japanese American filmmaker based in New York City. He graduated from The School of Visual Arts in 2015, earning a BFA in Film and Video, specializing in Film Editing. During his time in school, he learned
+                          about all aspects of the filmmaking process, including writing, directing, cinematography, editing, and more. He has worked on a number of projects including short films, music videos, live events, and even a TV pilot.
+                          Currently, he is working as a freelance cinematographer and editor in New York City.</p>
+                  </div>
+              </div>
+
+
+              <!--Workshops-->
+              <h2 style="text-align:center;">Workshops</h2>
+              <p style="text-align:center;">A full list of workshops at NYCAASC 2017 will be featured soon!</p>
+
+            </div>
+
+
+
+
+            <div id="menu2" class="tab-pane fade">
+              <h1>Schedule</h1>
+              <p style="font-size: 1.2em">The full schedule for NYCAASC 2017 will be released soon. Stay tuned!</p><br><br>
+                <!--schedule & workshops
+
+
+                <style>
+                    .sched-header {
+                        padding-bottom: 15px;
+                        margin-bottom: 15px;
+                        border-bottom-width: 1px;
+                        border-bottom-style: solid;
+                        border-bottom-color: #dfdfdf;
+                    }
+
+                    .sched-row {
+                        background-color: #fff;
+                    }
+
+                    /*.sched-row:hover,
+                    .sched-row:focus,
+                    .sched-header:hover,
+                    .sched-header:focus {
+                        background-color: #efefef;
+                        transition: .2s ease;
+                        transition-delay: .0s;
+                        transition-property: all;*/
+                    }
+                </style>
+
+                <div class="sched-header">
+                    <h3>8:30 AM-9:00 AM</h3>
+                </div>
+                <div class="row sched-row">
+                    <div class="col-sm-12">
+                        <h4>Doors open &amp; Breakfast</h4>
+                        <p>405 &amp; 406, Eisner &amp; Lubin Auditorium</p>
+                    </div>
+                </div>
+                <div class="sched-header">
+                    <h3>9:00 AM-9:15 AM</h3>
+                </div>
+                <div class="row sched-row">
+                    <div class="col-sm-12">
+                        <p>Eisner &amp; Lubin Auditorium</p>
+                    </div>
+                </div>
+                <div class="sched-header">
+                    <h3>9:20 AM-10:35 AM</h3>
+                </div>
+                <div class="row sched-row">
+                    <h4>Track 1 Workshops</h4>
+                    <p>GCASL 3rd Floor</p>
+                    <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <h5>Breaking the Bamboo Ceiling</h5>
+                        <h6>Richard Lu</h6>
+                        <p>Room 405</p>
+                      </div>
+                </div>
+                <div class="sched-header">
+                    <h3>10:40 AM-11:40 AM</h3>
+                </div>
+                <h4>Performer: Kim Chinh</h4>
+                <h4>Performer: Brett Kodama</h4>
+                <p>Eisner &amp; Lubin Auditorium</p>
+                <div class="sched-header">
+                    <h3>11:45 AM-1:00 AM</h3>
+                </div>
+                <h4>Track 2 Workshops</h4>
+                <p>GCASL 3rd Floor</p>
+                <div class="sched-header">
+                    <h3>1:00 PM-1:45 PM</h3>
+                </div>
+                <h4>Lunch</h4>
+                <p>406/405, E&amp;L</h4>
+                    <div class="sched-header">
+                        <h3>1:45-2:15 PM</h3>
+                    </div>
+                    <h4>Keynote: Allan Isaac</h4>
+                    <p>E&amp;L</p>
+                    <div class="sched-header">
+                        <h3>2:15 PM-3:15 PM</h3>
+                    </div>
+                    <h4>Headliner: Tim Atlas</h4>
+                    <p>E&amp;L</p>
+                    <div class="sched-header">
+                        <h3>3:25 PM-4:40 PM</h3>
+                    </div>
+                    <h4>Track 3 Workshops</h4>
+                    <p>GCASL 3rd Floor</p>
+                    <div class="sched-header">
+                        <h3>4:45 PM-5:15 PM</h3>
+                    </div>
+                    <h4>Closing</h4>
+                    <p>914</p>
+                    <div class="sched-header">
+                        <h3>5:15 PM- 6:30 PM</h3>
+                    </div>
+                    <h4>100 Days of Trump plenary</h4>
+                    <p>914</p>
+
+
+
+
+
+
+                  -->
+            </div>
+
+
+
+            <div id="menu3" class="tab-pane fade">
+                <!--FAQ-->
+                <aside role="complementary">
+
+                    <h1>Frequently Asked Questions</h1>
+
+                    <div class="container faq" style='display:block; width:90%'>
+
+                        <ul class="list-group list-unstyled">
+                            <li class="list-group-item">
+                                <h3>What is NYCAASC?</h3>
+                                <p>The New York City Asian American Student Conference (NYCAASC) is NYC’s premier conference for exposing bright, young minds to issues that affect the Asian/Pacific Islander American community.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>Where are we?</h3>
+                                <p>We wouldn’t be NYCAASC without the NYC. The conference takes place at the NYU Kimmel Center for Student Life, which is located near the following subway stations: <strong>West 4 St - Washington Square</strong> (accessible
+                                    via the A, B, C, D, F, & M), <strong>Astor Place</strong> (6), and <strong>8 St - NYU</strong> (R and W). </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>When is NYCAASC 2017 happening?</h3>
+                                <p>Mark your calendars for <strong>April 29, 2017</strong>! The conference is all day long, from <strong>8:30 AM to 6:00 PM</strong>.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>I’m not an Asian/Pacific Islander American. Can I still attend the conference?</h3>
+                                <p>NYCAASC is run by APIA students, but is <strong>open to anyone</strong> interested in learning about Asian America, regardless of student <strong>status</strong>, <strong>race</strong>, or <strong>ethnicity</strong>!</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>How do I register? </h3>
+                                <p><a href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Click here to RSVP for the conference on Eventbrite</a>. Just select the number of tickets you want, fill out your information, and you’re
+                                    good to go!</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>How much is the conference?</h3>
+                                <p>It’s <strong>FREE</strong>!</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>Really? I don’t have to pay anything?</h3>
+                                <p>Really really.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>Will there be food?</h3>
+                                <p><strong>YES</strong>! Broke college students, have no fear. We provide FREE breakfast, FREE lunch, and FREE snacks and refreshments!</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>Does NYCAASC host events other than the main conference in April?</h3>
+                                <p>We have hosted a variety of satellite events alongside fellow APIA student clubs in the past, including open mics with a variety of headliners.</p>
+                                <p>Currently, there are no events planned for the 2017 school year but we hope to continue to hold some in the future. </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3>How can I support NYCAASC?</h3>
+                                <p>The easiest way to support us is to just attend our conference! If you, for some reason, can’t make it to NYCAASC, you can always <strong>like and share</strong> our event on <strong>Facebook, Twitter, and Instagram</strong>                                    to help us spread the word about our conference; our conference’s longevity and success are dependent on <strong>YOU</strong>!</p>
+                                <!-- Sponsorship/crowdfunding information. Update later
+              <p>If you want to help empower and inspire students in NYC,  feel free to sponsor us however much you’d like via our Kickstarter (<>) or GoFundMe (<>). We truly appreciate it, as it helps NYCAASC produce better, more engaging conferences and reach more students!</p>
+              <p>If you’re a company/organization, we’d love your support too! Sign up to be a sponsor here: <insert link to form>. We’d really appreciate your support!</p>
+              -->
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </aside>
+            </div>
+
+            </section>
+
+          </div>
+        </div>
+
+
+
+
+    <aside>
+
+        <div class="jumbotron container-fluid">
+            <div class="container">
+                <h2>New to NYCAASC?</h2>
+                <p>We are a day-long conference made by students, for students seeking to empower and inspire NYC students around Asian/Pacific Islander American issues.</p>
+                <p><a class="btn btn-primary btn-lg" href="about.html">Learn more about us!</a></p>
+            </div>
+        </div>
+
+    </aside>
 
     </main>
 
