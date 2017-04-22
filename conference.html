@@ -174,136 +174,174 @@
 
             <div id="menu2" class="tab-pane fade">
               <h1>Schedule</h1>
-              <p style="font-size: 1.2em">The full schedule for NYCAASC 2017 will be released soon. Stay tuned!</p><br><br>
-                <!--schedule & workshops
+              <p style="font-size: 1.2em">Check back soon for a full list of workshops at NYCAASC 2017!</p><br><br>
+                <!--schedule & workshops-->
 
-
-                <style>
-                    .sched-header {
-                        padding-bottom: 15px;
-                        margin-bottom: 15px;
-                        border-bottom-width: 1px;
-                        border-bottom-style: solid;
-                        border-bottom-color: #dfdfdf;
-                    }
-
-                    .sched-row {
-                        background-color: #fff;
-                    }
-
-                    /*.sched-row:hover,
-                    .sched-row:focus,
-                    .sched-header:hover,
-                    .sched-header:focus {
-                        background-color: #efefef;
-                        transition: .2s ease;
-                        transition-delay: .0s;
-                        transition-property: all;*/
-                    }
-                </style>
-
-                <div class="sched-header">
-                    <h3>8:30 AM-9:00 AM</h3>
-                </div>
-                <div class="row sched-row">
-                    <div class="col-sm-12">
-                        <h4>Doors open &amp; Breakfast</h4>
+                <table id="schedule-2017" class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>Event</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="sched-time">8:30 AM-9:00 AM</th>
+                      <td class="sched-event">
+                        <h4>Doors open &amp; breakfast</h4>
                         <p>405 &amp; 406, Eisner &amp; Lubin Auditorium</p>
-                    </div>
-                </div>
-                <div class="sched-header">
-                    <h3>9:00 AM-9:15 AM</h3>
-                </div>
-                <div class="row sched-row">
-                    <div class="col-sm-12">
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">9:00 AM-9:15 AM</th>
+                      <td class="sched-event">
+                        <h4>Opening</h4>
                         <p>Eisner &amp; Lubin Auditorium</p>
-                    </div>
-                </div>
-                <div class="sched-header">
-                    <h3>9:20 AM-10:35 AM</h3>
-                </div>
-                <div class="row sched-row">
-                    <h4>Track 1 Workshops</h4>
-                    <p>GCASL 3rd Floor</p>
-                    <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h5>Breaking the Bamboo Ceiling</h5>
-                        <h6>Richard Lu</h6>
-                        <p>Room 405</p>
-                      </div>
-                </div>
-                <div class="sched-header">
-                    <h3>10:40 AM-11:40 AM</h3>
-                </div>
-                <h4>Performer: Kim Chinh</h4>
-                <h4>Performer: Brett Kodama</h4>
-                <p>Eisner &amp; Lubin Auditorium</p>
-                <div class="sched-header">
-                    <h3>11:45 AM-1:00 AM</h3>
-                </div>
-                <h4>Track 2 Workshops</h4>
-                <p>GCASL 3rd Floor</p>
-                <div class="sched-header">
-                    <h3>1:00 PM-1:45 PM</h3>
-                </div>
-                <h4>Lunch</h4>
-                <p>406/405, E&amp;L</h4>
-                    <div class="sched-header">
-                        <h3>1:45-2:15 PM</h3>
-                    </div>
-                    <h4>Keynote: Allan Isaac</h4>
-                    <p>E&amp;L</p>
-                    <div class="sched-header">
-                        <h3>2:15 PM-3:15 PM</h3>
-                    </div>
-                    <h4>Headliner: Tim Atlas</h4>
-                    <p>E&amp;L</p>
-                    <div class="sched-header">
-                        <h3>3:25 PM-4:40 PM</h3>
-                    </div>
-                    <h4>Track 3 Workshops</h4>
-                    <p>GCASL 3rd Floor</p>
-                    <div class="sched-header">
-                        <h3>4:45 PM-5:15 PM</h3>
-                    </div>
-                    <h4>Closing</h4>
-                    <p>914</p>
-                    <div class="sched-header">
-                        <h3>5:15 PM- 6:30 PM</h3>
-                    </div>
-                    <h4>100 Days of Trump plenary</h4>
-                    <p>914</p>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">9:20 AM-10:30 AM</th>
+                      <td class="sched-event"><h4>Workshops - Track 1</h4>
+                        <p>GCASL 3rd Floor</p>
+                        <!-- Workshop grid template -->
+                        <!--
+                        <div class="row sched-row">
+                            <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                        </div><!--end row-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">10:40 AM-11:40 AM</th>
+                      <td class="sched-event"><h4>Performers: Kim Chinh, Brett Kodama</h4><p>Eisner &amp; Lubin Auditorium</p></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">11:45 AM-1:00 PM</th>
+                      <td class="sched-event"><h4>Workshops - Track 2</h4>
+                        <p>GCASL 3rd Floor</p>
+                        <!--
+                        <div class="row sched-row">
+                            <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>-->
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">1:00 PM-1:45 PM</th>
+                      <td class="sched-event"><h4>Lunch</h4><p>405 &amp; 406, Eisner &amp; Lubin Auditorium</p></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">1:45 PM-2:15 PM</th>
+                      <td class="sched-event"><h4>Keynote: Allen Isaac</h4><p>Eisner &amp; Lubin Auditorium</p></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">2:15 PM-3:15 PM</th>
+                      <td class="sched-event"><h4>Headliner: Tim Atlas</h4><p>Eisner &amp; Lubin Auditorium</p></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">3:25 PM-4:40 PM</th>
+                      <td class="sched-event"><h4>Workshops - Track 3</h4><p>GCASL 3rd Floor</p>
+                        <!--
+                        <div class="row sched-row">
+                            <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>
+                              <div class="col-sm-4">
+                                <h5>Breaking the Bamboo Ceiling</h5>
+                                <h6>Richard Lu</h6>
+                                <p>Room 405</p>
+                              </div>-->
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">4:45 PM-5:15 PM</th>
+                      <td class="sched-event"><h4>Closing</h4><p>Eisner &amp; Lubin Auditorium</p></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="sched-time">5:15 PM-6:30 PM</th>
+                      <td class="sched-event"><h4>One Hundred Days of Trump plenary</h4><p>914</p></td>
+                    </tr>
+                  </tbody>
+                </table>
 
-
-
-
-
-
-                  -->
             </div>
 
 
@@ -353,16 +391,13 @@
                             </li>
                             <li class="list-group-item">
                                 <h3>Does NYCAASC host events other than the main conference in April?</h3>
-                                <p>We have hosted a variety of satellite events alongside fellow APIA student clubs in the past, including open mics with a variety of headliners.</p>
-                                <p>Currently, there are no events planned for the 2017 school year but we hope to continue to hold some in the future. </p>
+                                <p>We have hosted a variety of satellite events alongside fellow APIA student clubs in the past, including open mics with a variety of headliners and rock climbing fundraisers!</p>
+                                <p>The best way to stay informed on outside events is to like on <a href="https://facebook.com/nycaascpage/" alt="Facebook">Facebook</a>!</p>
                             </li>
                             <li class="list-group-item">
                                 <h3>How can I support NYCAASC?</h3>
-                                <p>The easiest way to support us is to just attend our conference! If you, for some reason, can’t make it to NYCAASC, you can always <strong>like and share</strong> our event on <strong>Facebook, Twitter, and Instagram</strong>                                    to help us spread the word about our conference; our conference’s longevity and success are dependent on <strong>YOU</strong>!</p>
-                                <!-- Sponsorship/crowdfunding information. Update later
-              <p>If you want to help empower and inspire students in NYC,  feel free to sponsor us however much you’d like via our Kickstarter (<>) or GoFundMe (<>). We truly appreciate it, as it helps NYCAASC produce better, more engaging conferences and reach more students!</p>
-              <p>If you’re a company/organization, we’d love your support too! Sign up to be a sponsor here: <insert link to form>. We’d really appreciate your support!</p>
-              -->
+                                <p>The easiest way to support us is to just attend our conference! If you, for some reason, can’t make it to NYCAASC, you can always <strong>like and share</strong> our event on <strong>Facebook, Twitter, and Instagram</strong> to help us spread the word about our conference; our conference’s longevity and success are dependent on <strong>YOU</strong>!</p>
+                                <p>If you want to help empower and inspire students in NYC, please support our 2017 conference at our <a href="http://risingviolets.nyu.edu/nycaasc">crowdfunding campaign</a>. More information about NYCAASC funding can be found on our <a href="budget.html">budget page</a>.</p>
                             </li>
                         </ul>
 
