@@ -376,7 +376,6 @@ Theme statement
 Performers
 -----------------------*/
 
-
 .performer-headshot {
     max-height: 350px;
     display: block;
@@ -418,6 +417,10 @@ Performers
 .social-icon {
   display: block;
   vertical-align: top;
+}
+
+#workshop-list>h3, #workshop-list>h4, #workshop-list>h5, #workshop-list>p {
+  text-align: left;
 }
 
 
