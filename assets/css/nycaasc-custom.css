@@ -434,7 +434,7 @@ Schedule section
   font-size: 1.2em;
 }
 
-#schedule-2017>a {
+#schedule-2017>tbody>tr>td>div>div>h5>a {
    color: rgba(209,50,56,1);
 }
 
