@@ -481,6 +481,13 @@ FAQ section
   color: #d13238;
 }
 
+/* Workshops
+Speaker headshots
+-------------- */
+.speaker > div > img {
+  display: block;
+  width: 300px;
+}
 
 /* About
 --------- */
