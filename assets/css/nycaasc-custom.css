@@ -423,6 +423,10 @@ Performers
   text-align: left;
 }
 
+#workshop-list>h4>a {
+  color: rgba(209,50,56,1)
+}
+
 
 /* Conference:
 Schedule section
