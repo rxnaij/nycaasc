@@ -47,20 +47,49 @@
 
 <body>
 
+    <div id="donate-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title logo-red logo-text">A message from NYCAASC 2017's directors:</h4>
+          </div>
+          <div class="modal-body">
+            <p>Hello, friends and family!</p>
+            <p><strong>What does NYCAASC mean to you?</strong></p>
+            <p>For over 10 years, NYCAASC has meant, among many things, <strong>accessibility</strong> for students from all schools, classes, and backgrounds. We try to emphasize this through financial accessibility: <strong>admission to the conference is and will always be free.</strong></p>
+            <p>This year, however, <strong>we need your help</strong>. We're operating at a deficit at the moment. Our fundraiser was tremendously helpful towards our budget, but <strong>there's still more that could be done</strong> to ensure this year's conference runs smoothly.</p>
+            <p>In order to keep pushing forward, we've opened a <a href="http://risingviolets.nyu.edu/NYCAASC"><strong>crowdfunding campaign</strong></a> for NYCAASC. Any donation, from $5 to $50, will be greatly appreciated. And who knows: your contribution could <strong>change a fellow student's life.</strong></p>
+            <p><strong>Help us help us create an experience that will inspire, uplift, unite, empower, educate, and welcome Asian/Pacific Islander American students.</strong></p>
+            <p>You can find a continually updated breakdown of our budget <a href="budget.html" title="Budget">here</a>.</p>
+            <p>With love,</p>
+            <p>&ndash; Lisa Ng, NYCAASC 2017 director</p>
+            <a class="btn btn-primary btn-lg" href="http://risingviolets.nyu.edu/nycaasc">DONATE HERE!</a>
+            <br><br>
+            <img id="donate-promo" class="img-responsive" src="assets/img/evt/2017/donate_promo.png" alt="Help support NYCAASC!">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header id="header"></header>
+
 
     <main role="main">
 
         <section>
 
-            <!-- Theme logo banner/carousel -->
-            <div id="nycaasc2017-copy" class="jumbotron container-fluid">
-                <img src="assets/img/logo/REALITIES_WEB_banner.png" width="100%" height="auto">
-                <h1>NYCAASC 2017: REALITIES</h1>
-                <p class="big-copy" style="width: 100%;">This year, our conference is centered around the theme REALITIES, which calls upon attendees to think critically about the realities that shape their world and the people around them.</p>
-                <p><a class="btn btn-primary btn-lg" href="conference.html">Learn more</a></p>
-                <p><a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Register</a></p>
-            </div>
+          <div class="container-fluid">
+
+          </div>
+
+          <div id="nycaasc2017-copy" class="jumbotron container-fluid">
+              <img src="assets/img/logo/REALITIES_WEB_banner.png" width="100%" height="auto">
+              <h1>NYCAASC 2017: REALITIES</h1>
+              <p class="big-copy" style="width: 100%;">This year, our conference is centered around the theme REALITIES, which calls upon attendees to think critically about the realities that shape their world and the people around them.</p>
+              <p text-align="center"><a class="btn btn-primary btn-lg" href="conference.html">Learn more</a></p>
+              <p text-align="center"><a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/nycaasc-2017-realities-tickets-32208532588">Register</a></p>
+          </div>
 
         </section>
 
@@ -296,6 +325,12 @@
             $("#header").load("header.html");
             $("#footer").load("footer.html");
         });
+    </script>
+    <!--Donate modal-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#donate-modal").modal('show');
+    });
     </script>
 </body>
 

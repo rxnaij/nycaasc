@@ -346,6 +346,15 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 /* Index.html
 (Home page)
 ---------------- */
+#modal-title>h1 {
+
+}
+
+#donate-promo {
+  display: block;
+  margin: 0 auto;
+}
+
 #sponsors{
   background-color: #F9EAE1;
 }
