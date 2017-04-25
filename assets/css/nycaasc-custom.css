@@ -360,7 +360,7 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
   /* Space the images apart */
   padding-bottom: 30px;
 
-  max-width: 200px;
+  width: 128px;
   height: auto;
 }
 
