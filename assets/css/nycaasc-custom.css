@@ -343,6 +343,26 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
   font-family: "Streetvertising Medium", "Helvetica Neue", sans-serif;
 }
 
+/* Index.html
+(Home page)
+---------------- */
+#sponsors{
+  background-color: #F9EAE1;
+}
+#sponsors>p, #sponsors>h4 {
+  text-align: center;
+}
+.sponsor-preview {
+  /* Center the image */
+  display: block;
+  margin: auto;
+
+  /* Space the images apart */
+  padding-bottom: 30px;
+
+  width: 128px;
+  height: auto;
+}
 
 /* Conference:
 Theme statement
