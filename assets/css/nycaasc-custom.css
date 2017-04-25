@@ -346,6 +346,10 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 /* Index.html
 (Home page)
 ---------------- */
+
+.modal.in {
+  display:block;
+}
 #modal-title>h1 {
 
 }
