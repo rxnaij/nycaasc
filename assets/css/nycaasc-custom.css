@@ -383,6 +383,9 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 #sponsor-apa {
   width: 400px;
 }
+#sponsor-silver>div>img {
+  width: 150px;
+}
 .figure-caption {
   text-align: center;
   margin-bottom: 30px;
