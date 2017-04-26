@@ -394,11 +394,11 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 Theme statement
 ------------ */
 #theme-statement {
-  font-size: 1.3em;
+  font-size: 1.2em;
 
 }
 .theme-statement-emphasis {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: normal;
   color: #4F646F;
 }
@@ -436,7 +436,7 @@ Performers
     text-align: justify;
     padding-left,
     padding-right: 10px;
-    font-size: 1.3em;
+    font-size: 1.15em;
 }
 
 .performer>h3 {
