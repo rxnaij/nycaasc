@@ -620,3 +620,33 @@ img.headshot {
   font-size: 16px;
   line-height: 1.8em;
 }
+
+
+/* HSL page
+--------- */
+.split-container {
+  background-color: rgba(209,50,56,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.split-container > row > div {
+  flex: 1;
+}
+
+.split-container .img-container {
+  height: 100%;
+  background-image: url("../img/hsl/hsl_2017_group.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.split-container .copy-container {
+  padding: 3em;
+  /* padding-bottom: 2em; */
+}
+
+.split-container .copy-container h2 {
+  margin-top: 0;
+}
