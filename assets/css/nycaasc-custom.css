@@ -327,6 +327,8 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
   display: block;
   margin: 0 auto;
 }
+
+
 #sponsors{
   background-color: #F9EAE1;
 }
@@ -359,6 +361,10 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 .figure-caption {
   text-align: center;
   margin-bottom: 30px;
+}
+#conf-slides {
+  margin: 0 auto;
+  /* max-width: 720px; */
 }
 /* Conference:
 Theme statement
