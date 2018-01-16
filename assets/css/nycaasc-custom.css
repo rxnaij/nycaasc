@@ -121,34 +121,7 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  width: 100%;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: 100%; */
-  width: auto;
-  height: auto;
-  vertical-align: middle;
-}
 
 .marketing .col-lg-4 {
   margin-bottom: 20px;
@@ -621,60 +594,29 @@ img.headshot {
 
 /* HSL page
 --------- */
-.split-container {
-  /* background-color: rgba(209,50,56,0.2); */
-}
-
-.split-container > .row > .col-sm-6 {
-
-}
-
-.split-container .img-container {
-  height: 100%;
-  /* background-image: url("../img/hsl/hsl_2017_group.JPG"); */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.split-container .copy-container {
-  /* padding: 4em; */
-  /* padding-bottom: 2em; */
-}
-
-.split-container .copy-container h2 {
-  margin-top: 0;
-}
 
 .hsl-apply {
   margin-bottom: 0;
 }
 
-#hsl-2017-intro  {
-  background-image: url("../img/hsl/2017/board-2.jpg");
+#header-background {
+  background-image: linear-gradient(to right, rgba(223, 100, 100, 1) 40%, rgba(255, 255, 255, 0.5)), url("../img/hsl/2017/board-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
 }
 
-#hsl-2017-intro .row {
-  /* background-image: linear-gradient(to right, rgba(223, 100, 100, 0.7) 25%, rgba(255, 255, 255, 0.5)); */
-  background-color: rgba(223, 100, 100, 0.7);
-}
-
 .hsl-2017-portfolio {
-  background-color: rgba(223, 100, 100, 0.3);
   padding-bottom: 30px;
 }
 
 #hsl-2017-heading {
-  background-color: rgba(223, 100, 100, 0.3);
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.hsl-2017-heading h3 {
+#hsl-2017-heading h3 {
   margin-top: 0;
 }
 
@@ -687,14 +629,22 @@ img.headshot {
   margin-bottom: 30px;
 }
 
+.img-gall {
+  /* margin-bottom: 30px; */
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
 .hsl-portfolio-caption {
-  margin-top: 24px;
-  padding: 30px;
-  background-color: rgba(0,0,0,0.25);
+  padding: 20px;
+  /* background-color: rgba(0,0,0,0.1); */
+  background-color: rgba(223, 100, 100, 0.1);
+  /* margin-top: 8px; */
 }
 
 .hsl-portfolio-caption p {
-  color: white;
+  /* color: rgba(0,0,0,0.70); */
   margin: 0;
 }
 
