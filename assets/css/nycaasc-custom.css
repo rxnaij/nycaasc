@@ -121,34 +121,7 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  width: 100%;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: 100%; */
-  width: auto;
-  height: auto;
-  vertical-align: middle;
-}
 
 .marketing .col-lg-4 {
   margin-bottom: 20px;
@@ -290,9 +263,6 @@ h2 {
   margin-bottom: 25px;
   margin-top: 25px;
 }
-p>a {
-  color: #ff6663;
-}
 h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
@@ -357,6 +327,8 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
   display: block;
   margin: 0 auto;
 }
+
+
 #sponsors{
   background-color: #F9EAE1;
 }
@@ -389,6 +361,10 @@ fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active
 .figure-caption {
   text-align: center;
   margin-bottom: 30px;
+}
+#conf-slides {
+  margin: 0 auto;
+  /* max-width: 720px; */
 }
 /* Conference:
 Theme statement
@@ -619,4 +595,65 @@ img.headshot {
 .budget-copy {
   font-size: 16px;
   line-height: 1.8em;
+}
+
+
+/* HSL page
+--------- */
+
+.hsl-apply {
+  margin-bottom: 0;
+}
+
+#header-background {
+  background-image: linear-gradient(to right, rgba(223, 100, 100, 1) 40%, rgba(255, 255, 255, 0.5)), url("../img/hsl/2017/board-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hsl-2017-portfolio {
+  padding-bottom: 30px;
+}
+
+#hsl-2017-heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#hsl-2017-heading h3 {
+  margin-top: 0;
+}
+
+.hsl-2017-portfolio img {
+  width: 100%;
+}
+
+.hsl-2017-projects {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.img-gall {
+  /* margin-bottom: 30px; */
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.hsl-portfolio-caption {
+  padding: 20px;
+  /* background-color: rgba(0,0,0,0.1); */
+  background-color: rgba(223, 100, 100, 0.1);
+  /* margin-top: 8px; */
+}
+
+.hsl-portfolio-caption p {
+  /* color: rgba(0,0,0,0.70); */
+  margin: 0;
+}
+
+.hsl-2017-projects h4{
+  margin-top: 0;
 }
