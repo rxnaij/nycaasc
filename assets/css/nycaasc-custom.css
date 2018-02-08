@@ -1,4 +1,4 @@
-/* Logo formatting
+/* NYCAASC LOGO
 --------------------- */
 .logo-text {
   font-family: "Streetvertising Medium", Roboto;
@@ -6,142 +6,12 @@
 .logo-red {
   color: rgba(209,50,56,1);
 }
-/* Archival styles
------------------------- */
-.bs-docs-header {
-    position: relative;
-    padding: 30px 0;
-    color: #cdbfe3;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: #cf3537;
-    background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
-    background-repeat: repeat-x;
-}
-.bs-docs-header .container {
-    position: relative;
-}
-.conf-schedule {
-	width: 100%;
-	max-width: none;
-	table-layout: auto;
-}
-.conf-schedule-time {
-	width: 0;
-	padding-left: 0!important;
-}
-.conf-schedule-events {
-	padding-right: 0!important;
-	padding: 9px 9px 9px 12px;
-	background-color: rgba(207,53,55,0.1);
-}
-.conf-schedule-cell {
-	  background-color: rgba(207,53,55,0.1);
-    padding: 10px;
-    margin-bottom: 5px;
-    position: relative;
-    flex: 1 1 auto;
-}
-.conf-session-title {
-	font-weight: bold;
-	font-size: 14px
-}
-.conf-schedule-events, .conf-schedule-time {
-	border: 0!important;
-	padding: 10px!important;
-	vertical-align:top;
-}
-.conf-separate {
-	border-top:1pt solid black;
-}
-
-#MemberName {
-    font-size: 150%;
-    font-weight: bold;
-    margin-bottom:-2%;
-    text-align: center!important;
-}
-#ePosition {
-    text-align: center!important;
-}
-#MemberTitle {
-    font-size: 100%;
-    font-weight: bold;
-    text-align: center!important;
-    max-width:250 px;
-}
-#MemberAffiliation {
-    font-size: 100%;
-    text-align: center!important;
-    max-width:250 px;
-}
-
-#moreInfo{
-    font-size: 24px!important;
-    text-align: center!important;
-    text-decoration: none;
-    margin-top:-2%;
-}
 
 
-
-#BioName {
-    font-size: 150%;
-    font-weight: bold;
-    text-align:left;
-    margin-top:0%;
-}
-#BioTitle {
-    font-size: 110%;
-    font-weight: bold;
-    text-align:left;
-}
-#BioDescript {
-    font-size: 110%; /* em or percentages? - AC*/
-    line-height:160%;
-    text-align:left;
-}
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-
-
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.top-buffer {
-	margin-top:20px;
-}
-
-
-/* Sticky footer styles
+/* SITE FOOTER
 -------------------------------------------------- */
 #foot {
+  position: sticky;
   bottom: 0;
   width: 100%;
   background-color: #f5f5f5;
@@ -154,8 +24,11 @@
   padding: 20px;
 }
 
-/* Header style
+/* SITE HEADER
 ------------------------- */
+#header {
+  z-index: 100;
+}
 #menu.navbar-default .navbar-brand .navbar-nav>li {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -202,7 +75,7 @@
 }
 
 
-/* Social media styles
+/* SOCIAL MEDIA FOOTER ICONS
 ------------------------- */
 .socialmedia {
   opacity: 0.7;
@@ -219,43 +92,26 @@
 }
 
 
-/* Page styles
+/* SITE PAGE CONTENT
 -------------------- */
-
+body {
+  /* TODO: better fix for page height */
+  padding-top: 64px; 
+}
 #nycaasc-header-image {
-
-  max-width: 100%;
-  width: 100%;
+  display: block;
+  max-width: 720px;
   height: auto!important;
+  margin: 0 auto;
 }
-#nycaasc2017-copy {
-
-}
-
-#fundraiser-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding-bottom: 20px
-}
-
-#fundraiser-moreinfo {
-  font-size: 16px;
-  background-color:
-  rgba(245,245,245,1);
-  padding: 20px
-}
-
-
 #main {
-  /*background-color: white;*/
   padding: 20px;
-  /*font: "Helvetica Neue", Helvetica, sans-serif;*/
   display: block;
 }
 h1 {
   font-family: Futura, Helvetica, sans-serif;
   color: #d13238;
+  font-size: 3.5em;
 }
 h2 {
   font-family: "Helvetica Neue", sans-serif;
@@ -267,393 +123,9 @@ h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
 .copy {
-  font-size: 20px;
-  line-height: 1.6;
+  /* font-size: 20px;
+  line-height: 1.6; */
 }
-.big-copy {
-  font-size: 2em;
-}
-.btn-primary {
-  background-color: #d13238;
-}
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  background-color: #dd163e;
-}
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active, .btn-primary:active, .btn-primary.active {
-  background-color: #dd163e;
-}
-.btn-primary .badge {
-  color: #DE0000;
-  background-color: #ffffff;
-}
-.btn-custom {
-  display: inline;
-  padding: 20px;
-}
-
 .nav {
   font-family: "Streetvertising Medium", "Helvetica Neue", sans-serif;
-}
-
-/* Index.html
-(Home page)
----------------- */
-
-.modal.in {
-  display:block;
-}
-#modal-title>h1 {
-
-}
-#donate-promo {
-  display: block;
-  margin: 0 auto;
-}
-
-
-#sponsors{
-  background-color: #F9EAE1;
-}
-#sponsors>p, #sponsors>h4 {
-  text-align: center;
-}
-.sponsor-preview {
-  /* Center the image */
-  display: block;
-  margin: auto;
-
-  /* Space the images apart */
-  padding-bottom: 30px;
-
-  width: 128px;
-  height: auto;
-
-  transition: .2s ease;
-  backface-visibility: hidden;
-}
-.sponsor-preview:hover {
-  opacity: 0.7;
-}
-#sponsor-apa {
-  width: 400px;
-}
-#sponsor-silver>div>img {
-  width: 150px;
-}
-.figure-caption {
-  text-align: center;
-  margin-bottom: 30px;
-}
-#conf-slides {
-  margin: 0 auto;
-  /* max-width: 720px; */
-}
-/* Conference:
-Theme statement
------------- */
-#theme-statement {
-  font-size: 1.2em;
-
-}
-.theme-statement-emphasis {
-  font-size: 1.2em;
-  line-height: normal;
-  color: #4F646F;
-}
-
-#theme-statement-cols {
-  margin-bottom: 1.5em;
-}
-
-#theme-questions {
-  margin-bottom: 2em;
-}
-
-#theme-register-button {
-  margin-top: 70px;
-  margin-bottom: 70px;
-  text-align: center;
-}
-
-
-/* Conference:
-Performers
------------------------*/
-
-.performer-headshot {
-    max-height: 350px;
-    display: block;
-    margin: 0 auto;
-}
-
-.performer {
-
-}
-
-.performer>p {
-    text-align: justify;
-    padding-left,
-    padding-right: 10px;
-    font-size: 1.15em;
-}
-
-.performer>h3 {
-    text-align: center;
-}
-
-.sched-header {
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #dfdfdf;
-  }
-
-.glyphicon.glyphicon-globe {
-    font-size: 29px;
-}
-
-.social-box {
-  text-align: center;
-  display: block;
-}
-
-.social-icon {
-  display: block;
-  vertical-align: top;
-}
-
-#workshop-list>h3, #workshop-list>h4, #workshop-list>h5, #workshop-list>p {
-  text-align: left;
-}
-
-#workshop-list>h4>a {
-  color: rgba(209,50,56,1)
-}
-
-
-/* Conference:
-Schedule section
-------------------- */
-
-#schedule-2017 {
-
-
-}
-
-#schedule-2017>.thead {
-  font-size: 1.2em;
-}
-
-#schedule-2017>tbody>tr>td>div>div>h5>a {
-   color: rgba(209,50,56,1);
-}
-
-.sched-header {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #dfdfdf;
-}
-
-.sched-row {
-
-}
-
-.sched-time {
-  font-size: 1.2em;
-  padding-right: 20px;
-}
-
-.sched-event {
-
-}
-
-
-/* Conference:
-FAQ section
-------------------- */
-
-.faq>ul>li {
-  margin: 30, 30;
-  border-color: white;
-  background-color: #fff2f2;
-  padding: 25px;
-  color: #444;
-  font-size: 1.2em;
-}
-.faq>ul>li>h3 {
-  font-weight: 500;
-  font-size: 1.5em;
-  color: #d13238;
-}
-
-/* Workshops
-Speaker headshots
--------------- */
-.speaker > div > img {
-  display: block;
-  width: 300px;
-}
-
-/* About
---------- */
-#about-page-copy {
-  padding: 15px 10px;
-}
-
-#about-page-copy > div > div {
-}
-
-#about-cta {
-
-
-}
-#about-action>a>div {
-  margin: 30 auto;
-  background-color: #fff6f6;
-  padding: 80px;
-  text-align: center;
-}
-#about-learn-more {
-
-}
-#about-register {
-
-}
-#about-action>a>div:hover,
-#about-action>a>div:focus {
-    background-color: #efefef;
-    transition: .2s ease;
-    transition-delay: 0s;
-    transition-property: all;
-}
-
-/* Eboard
----------- */
-img.headshot {
-    display: block!important;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-.eboard-list {
-  margins: 0 auto;
-}
-.eboard-name {
-  display: block!important;
-  margin-left: 50;
-  margin-right: 50;
-  color: #4F646F;
-  text-align: center;
-}
-.school {
-  font-weight: bold;
-  font-size: 1.3em;
-  text-align: center;
-}
-.email {
-  font-size: 1.3em;
-  text-align: center;
-}
-.bio {
-  font-size: 1.3em;
-  font-weight: 300;
-  color: #4F646F;
-  padding-left: 50;
-  padding-right: 50;
-}
-
-/* Charts (on budget.html)
----------- */
-#chart {
-  height: 85%;
-  width: 85%;
-}
-
-/* Copy (on budget.html)
----------- */
-.budget-copy {
-  font-size: 16px;
-  line-height: 1.8em;
-}
-
-
-/* HSL page
---------- */
-
-.hsl-apply {
-  margin-bottom: 0;
-}
-
-#header-background {
-  background-image: linear-gradient(to right, rgba(223, 100, 100, 1) 40%, rgba(255, 255, 255, 0.5)), url("../img/hsl/2017/board-2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.hsl-2017-portfolio {
-  padding-bottom: 30px;
-}
-
-#hsl-2017-heading {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-#hsl-2017-heading h3 {
-  margin-top: 0;
-}
-
-.hsl-2017-portfolio img {
-  width: 100%;
-}
-
-.hsl-2017-projects {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.img-gall {
-  /* margin-bottom: 30px; */
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-.hsl-portfolio-caption {
-  padding: 20px;
-  /* background-color: rgba(0,0,0,0.1); */
-  background-color: rgba(223, 100, 100, 0.1);
-  /* margin-top: 8px; */
-}
-
-.hsl-portfolio-caption p {
-  /* color: rgba(0,0,0,0.70); */
-  margin: 0;
-}
-
-.hsl-2017-projects h4{
-  margin-top: 0;
 }

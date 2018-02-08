@@ -1,0 +1,16 @@
+/* About
+--------- */
+#nycaasc-header-image {
+  width: 100%;
+  max-width: 920px;
+}
+#about-page-copy {
+  padding: 15px 10px;
+}
+
+.conf-slide {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
