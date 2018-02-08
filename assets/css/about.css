@@ -1,20 +1,16 @@
 /* About
 --------- */
+#nycaasc-header-image {
+  width: 100%;
+  max-width: 920px;
+}
 #about-page-copy {
   padding: 15px 10px;
 }
 
-#about-action>a>div {
-  margin: 30 auto;
-  background-color: #fff6f6;
-  padding: 80px;
-  text-align: center;
-}
-
-#about-action>a>div:hover,
-#about-action>a>div:focus {
-    background-color: #efefef;
-    transition: .2s ease;
-    transition-delay: 0s;
-    transition-property: all;
+.conf-slide {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
