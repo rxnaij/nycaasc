@@ -27,7 +27,7 @@
 /* SITE HEADER
 ------------------------- */
 #header {
-  position: sticky;
+  z-index: 100;
 }
 #menu.navbar-default .navbar-brand .navbar-nav>li {
     margin-top: 10px;
@@ -95,7 +95,8 @@
 /* SITE PAGE CONTENT
 -------------------- */
 body {
-  padding-top: 70px; /* TODO: better fix for header height */
+  /* TODO: better fix for page height */
+  padding-top: 64px; 
 }
 #nycaasc-header-image {
   display: block;
@@ -110,6 +111,7 @@ body {
 h1 {
   font-family: Futura, Helvetica, sans-serif;
   color: #d13238;
+  font-size: 3.5em;
 }
 h2 {
   font-family: "Helvetica Neue", sans-serif;
