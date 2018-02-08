@@ -90,7 +90,9 @@
 
 /* SITE PAGE CONTENT
 -------------------- */
-
+body {
+  padding-top: 70px; /* TODO: better fix for header height */
+}
 #nycaasc-header-image {
   display: block;
   max-width: 720px;
